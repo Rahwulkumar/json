@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalogue</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Tailwind styles */
+        .bg-primary {
+            background-color: #1a202c;
+            /* Dark background */
+        }
+
+        .text-primary {
+            color: #edf2f7;
+            /* Light text */
+        }
+
+        .text-secondary {
+            color: #a0aec0;
+            /* Secondary text color */
+        }
+
+        .border-custom {
+            border-color: #4a5568;
+            /* Custom border color */
+        }
+
+        .button-primary {
+            background-color: #4a5568;
+            /* Button background */
+            color: #edf2f7;
+            /* Button text color */
+        }
+
+        .button-primary:hover {
+            background-color: #2d3748;
+            /* Darker on hover */
+        }
+
+        .card {
+            background-color: #2d3748;
+            /* Card background */
+            color: #edf2f7;
+            /* Card text color */
+        }
+    </style>
+</head>
+
+<body class="bg-primary text-primary">
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-extrabold mb-6 text-center">Book Catalogue</h1>
+
+        <!-- Filters and Sorting -->
+        <div class="mb-6 flex justify-between items-center">
+            <div>
+                <label for="filterGenre" class="font-semibold text-secondary">Filter by Genre:</label>
+                <select id="filterGenre" class="p-3 border border-custom rounded-md bg-primary text-primary">
+                    <option value="">All</option>
+                </select>
+            </div>
+            <div>
+                <label for="sortBooks" class="font-semibold text-secondary">Sort by:</label>
+                <select id="sortBooks" class="p-3 border border-custom rounded-md bg-primary text-primary">
+                    <option value="title">Title</option>
+                    <option value="year">Year</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Books List -->
+        <div id="booksList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Dynamic book cards will be inserted here -->
+        </div>
+
+        <!-- Pagination -->
+        <div class="mt-8 flex justify-center">
+            <button id="prevPage" class="p-3 mx-3 button-primary rounded-md">Previous</button>
+            <button id="nextPage" class="p-3 mx-3 button-primary rounded-md">Next</button>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="mt-6 text-red-500 text-center hidden"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+[
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Fiction",
+        "year": 1925,
+        "rating": 4.5
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Fiction",
+        "year": 1960,
+        "rating": 4.8
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Dystopian",
+        "year": 1949,
+        "rating": 4.7
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "year": 1813,
+        "rating": 4.6
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Fiction",
+        "year": 1951,
+        "rating": 4.3
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Dystopian",
+        "year": 1932,
+        "rating": 4.2
+    },
+    {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure",
+        "year": 1851,
+        "rating": 4.1
+    },
+    {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "genre": "Historical Fiction",
+        "year": 1869,
+        "rating": 4.7
+    },
+    {
+        "title": "The Odyssey",
+        "author": "Homer",
+        "genre": "Epic",
+        "year": -800,
+        "rating": 4.4
+    },
+    {
+        "title": "The Iliad",
+        "author": "Homer",
+        "genre": "Epic",
+        "year": -750,
+        "rating": 4.3
+    },
+    {
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "genre": "Adventure",
+        "year": 1605,
+        "rating": 4.5
+    },
+    {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "genre": "Philosophical Fiction",
+        "year": 1866,
+        "rating": 4.6
+    },
+    {
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "genre": "Philosophical Fiction",
+        "year": 1880,
+        "rating": 4.7
+    },
+    {
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "genre": "Epic Poetry",
+        "year": 1320,
+        "rating": 4.5
+    },
+    {
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "genre": "Adventure",
+        "year": 1844,
+        "rating": 4.8
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "Horror",
+        "year": 1818,
+        "rating": 4.4
+    },
+    {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "genre": "Horror",
+        "year": 1897,
+        "rating": 4.3
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "year": 1937,
+        "rating": 4.7
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "year": 1954,
+        "rating": 4.9
+    },
+    {
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "genre": "Fantasy",
+        "year": 1950,
+        "rating": 4.6
+    },
+    {
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Lewis Carroll",
+        "genre": "Fantasy",
+        "year": 1865,
+        "rating": 4.4
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "genre": "Philosophical Fiction",
+        "year": 1890,
+        "rating": 4.4
+    },
+    {
+        "title": "The Adventures of Sherlock Holmes",
+        "author": "Arthur Conan Doyle",
+        "genre": "Mystery",
+        "year": 1892,
+        "rating": 4.6
+    },
+    {
+        "title": "The Three Musketeers",
+        "author": "Alexandre Dumas",
+        "genre": "Adventure",
+        "year": 1844,
+        "rating": 4.5
+    },
+    {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "genre": "Romance",
+        "year": 1847,
+        "rating": 4.2
+    },
+    {
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "genre": "Romance",
+        "year": 1847,
+        "rating": 4.6
+    }
+]
